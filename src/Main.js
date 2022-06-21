@@ -1,10 +1,11 @@
 import { Icon } from '@iconify/react';
-
 import React from "react";
+// import { Link } from 'react-router-dom';
 
 
 
 export default function MainContent() {
+    // const imageUrl = "https://www.youtube.com/watch?v=JRzWRZahOVU";
     return(
         <div className="py-md-5">
         <div className="container">
@@ -19,13 +20,13 @@ export default function MainContent() {
                             Created
                         </p>
 
-                        <a href="https://www.youtube.com/watch?v=JRzWRZahOVU"
+                        <a href='https://www.youtube.com/watch?v=JRzWRZahOVU'
                             className="btn btn-success btn-lg display-5 px-4 mt-5 rounded">FREE DOWNLOAD</a>
                     </div>
                 </div>
                 <div className="offset-xl-1 col-xl-5 col-lg-6 col-md-12">
                         <div className="d-block mt-n5 text-center">
-                            <a href='' className='text-dark mt-5'><Icon icon="gg:play-button" className='display-3 border rounded-circle shadow-sm mt-5'/></a>
+                            <a href='https://www.youtube.com/watch?v=JRzWRZahOVU' className='text-dark mt-5'><Icon icon="gg:play-button" className='display-3 border rounded-circle shadow-sm mt-5'/></a>
                         </div>
                 </div>
             </div>
