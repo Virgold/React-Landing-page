@@ -1,13 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import './Main.css'
+import Navbar from './Nav';
+import MainContent from './Main';
+import CardLayout from './CardLayout';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <div className="bg pb-5">
+      <Navbar/>
+      <MainContent/>
+      {/* <App /> */}
+    </div>
+    <CardLayout/>
   </React.StrictMode>
 );
 
