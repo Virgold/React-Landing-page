@@ -21,7 +21,7 @@ export default function MainContent() {
                         </p>
 
                         <a href='https://www.youtube.com/watch?v=JRzWRZahOVU'
-                            className="btn btn-success btn-lg display-5 px-4 mt-5 rounded">FREE DOWNLOAD</a>
+                            className="btn btn-success btn-lg display-5 px-4 mt-5 rounded-5">FREE DOWNLOAD</a>
                     </div>
                 </div>
                 <div className="offset-xl-1 col-xl-5 col-lg-6 col-md-12">

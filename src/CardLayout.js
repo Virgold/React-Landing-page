@@ -1,14 +1,15 @@
 import React from "react";
 import { Icon } from '@iconify/react';
+import './App.css';
 
 
 
 export default function CardLayout(){
     return(
-        <div className="container shadow-sm p-5">
+        <div className="container me shadow p-5 bg-white">
             <div className="row gy-3">
                 <div className="col-12 col-md-4">
-                    <div className="card border-0">
+                    <div className="card border-0 px-3">
                         <Icon icon="emojione-monotone:light-bulb" className='display-1' />
                         <div className='title'>
                             <h5>Intuitive Thinking</h5>
@@ -17,7 +18,7 @@ export default function CardLayout(){
                     </div>
                 </div>
                 <div className="col-12 col-md-4">
-                    <div className="card border-0">
+                    <div className="card border-0 px-3">
                     <Icon icon="la:carrot" className='display-1'/>
                     <div className='title'>
                             <h5>Orange for Carrots</h5>
@@ -26,7 +27,7 @@ export default function CardLayout(){
                     </div>
                 </div>
                 <div className="col-12 col-md-4">
-                    <div className="card border-0">
+                    <div className="card border-0 px-3">
                     <Icon icon="ph:infinity-thin" className='display-1'/>
                     <div className='title'>
                             <h5>Infinite Possibilities</h5>
