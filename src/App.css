@@ -5,3 +5,7 @@
   margin-top: -5rem!important;
 }
 
+.btn:focus{
+  box-shadow: none!important;
+  border: none!important;
+}
