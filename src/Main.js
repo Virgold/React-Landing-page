@@ -1,12 +1,11 @@
 import { Icon } from '@iconify/react';
 import React from "react";
 import './App.css';
-// import { Link } from 'react-router-dom';
+
 
 
 
 export default function MainContent() {
-    // const imageUrl = "https://www.youtube.com/watch?v=JRzWRZahOVU";
     return(
         <div className="py-md-5">
         <div className="container">
